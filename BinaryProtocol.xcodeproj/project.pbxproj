@@ -3,189 +3,170 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"BinaryProtocol::BinaryProtocolPackageTests::ProductTarget" /* BinaryProtocolPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_34 /* Build configuration list for PBXAggregateTarget "BinaryProtocolPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_37 /* PBXTargetDependency */,
+			);
+			name = BinaryProtocolPackageTests;
+			productName = BinaryProtocolPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		5724E51222ED94EC0015D570 /* BinaryProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5724E50822ED94EC0015D570 /* BinaryProtocol.framework */; };
-		5724E51722ED94EC0015D570 /* BinaryProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E51622ED94EC0015D570 /* BinaryProtocolTests.swift */; };
-		5724E51922ED94EC0015D570 /* BinaryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5724E50B22ED94EC0015D570 /* BinaryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5724E52922ED9D340015D570 /* BinarySerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E52822ED9D340015D570 /* BinarySerializable.swift */; };
-		5724E52C22EDA05B0015D570 /* IntConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E52B22EDA05B0015D570 /* IntConvertible.swift */; };
-		5724E52E22EDA5CF0015D570 /* BinaryCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E52D22EDA5CF0015D570 /* BinaryCodable.swift */; };
-		5724E53022EDA7580015D570 /* MessageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E52F22EDA7580015D570 /* MessageProtocol.swift */; };
-		5724E53222EDAB560015D570 /* UncompletedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E53122EDAB560015D570 /* UncompletedMessage.swift */; };
-		5724E53422EDAC380015D570 /* Payloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E53322EDAC380015D570 /* Payloadable.swift */; };
-		5724E53622EDAD2C0015D570 /* SerializableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E53522EDAD2C0015D570 /* SerializableData.swift */; };
-		5724E53822EDB6440015D570 /* CompletedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E53722EDB6440015D570 /* CompletedMessage.swift */; };
-		5724E53B22EDD7FB0015D570 /* MessageBuilderContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E53A22EDD7FB0015D570 /* MessageBuilderContext.swift */; };
-		5724E53D22EDDAE40015D570 /* MessageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724E53C22EDDAE40015D570 /* MessageBuilder.swift */; };
+		OBJ_25 /* BinaryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BinaryProtocol.swift */; };
+		OBJ_43 /* BinaryProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BinaryProtocolTests.swift */; };
+		OBJ_44 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_46 /* BinaryProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "BinaryProtocol::BinaryProtocol::Product" /* BinaryProtocol.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5724E51322ED94EC0015D570 /* PBXContainerItemProxy */ = {
+		574BEE9822F412F700D50F92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5724E4FF22ED94EC0015D570 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5724E50722ED94EC0015D570;
+			remoteGlobalIDString = "BinaryProtocol::BinaryProtocol";
 			remoteInfo = BinaryProtocol;
+		};
+		574BEE9922F412F800D50F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "BinaryProtocol::BinaryProtocolTests";
+			remoteInfo = BinaryProtocolTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5724E50822ED94EC0015D570 /* BinaryProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinaryProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5724E50B22ED94EC0015D570 /* BinaryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryProtocol.h; sourceTree = "<group>"; };
-		5724E50C22ED94EC0015D570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5724E51122ED94EC0015D570 /* BinaryProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5724E51622ED94EC0015D570 /* BinaryProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryProtocolTests.swift; sourceTree = "<group>"; };
-		5724E51822ED94EC0015D570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5724E52822ED9D340015D570 /* BinarySerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySerializable.swift; sourceTree = "<group>"; };
-		5724E52B22EDA05B0015D570 /* IntConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntConvertible.swift; sourceTree = "<group>"; };
-		5724E52D22EDA5CF0015D570 /* BinaryCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCodable.swift; sourceTree = "<group>"; };
-		5724E52F22EDA7580015D570 /* MessageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageProtocol.swift; sourceTree = "<group>"; };
-		5724E53122EDAB560015D570 /* UncompletedMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncompletedMessage.swift; sourceTree = "<group>"; };
-		5724E53322EDAC380015D570 /* Payloadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payloadable.swift; sourceTree = "<group>"; };
-		5724E53522EDAD2C0015D570 /* SerializableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializableData.swift; sourceTree = "<group>"; };
-		5724E53722EDB6440015D570 /* CompletedMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedMessage.swift; sourceTree = "<group>"; };
-		5724E53A22EDD7FB0015D570 /* MessageBuilderContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBuilderContext.swift; sourceTree = "<group>"; };
-		5724E53C22EDDAE40015D570 /* MessageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBuilder.swift; sourceTree = "<group>"; };
+		2403316891ADA01AE1A3B43E /* Pods-BinaryProtocolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinaryProtocolTests.debug.xcconfig"; path = "Target Support Files/Pods-BinaryProtocolTests/Pods-BinaryProtocolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		356B8E3B733017C855C7644F /* Pods-BinaryProtocolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinaryProtocolTests.release.xcconfig"; path = "Target Support Files/Pods-BinaryProtocolTests/Pods-BinaryProtocolTests.release.xcconfig"; sourceTree = "<group>"; };
+		4710FC82448A8879E6EB6D9A /* Pods-BinaryProtocolPackageDescription.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinaryProtocolPackageDescription.release.xcconfig"; path = "Target Support Files/Pods-BinaryProtocolPackageDescription/Pods-BinaryProtocolPackageDescription.release.xcconfig"; sourceTree = "<group>"; };
+		58A3F4313974E4C89A916B95 /* Pods-BinaryProtocolPackageDescription.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinaryProtocolPackageDescription.debug.xcconfig"; path = "Target Support Files/Pods-BinaryProtocolPackageDescription/Pods-BinaryProtocolPackageDescription.debug.xcconfig"; sourceTree = "<group>"; };
+		5C50B5ED34E2F8175764BE61 /* Pods-BinaryProtocol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinaryProtocol.release.xcconfig"; path = "Target Support Files/Pods-BinaryProtocol/Pods-BinaryProtocol.release.xcconfig"; sourceTree = "<group>"; };
+		"BinaryProtocol::BinaryProtocol::Product" /* BinaryProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BinaryProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"BinaryProtocol::BinaryProtocolTests::Product" /* BinaryProtocolTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = BinaryProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF54240A1A3F4531F8E02024 /* Pods-BinaryProtocol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinaryProtocol.debug.xcconfig"; path = "Target Support Files/Pods-BinaryProtocol/Pods-BinaryProtocol.debug.xcconfig"; sourceTree = "<group>"; };
+		OBJ_12 /* BinaryProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryProtocolTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* BinaryProtocol */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BinaryProtocol; sourceTree = SOURCE_ROOT; };
+		OBJ_18 /* BinaryProtocolTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BinaryProtocolTests; sourceTree = SOURCE_ROOT; };
+		OBJ_19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_9 /* BinaryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5724E50522ED94EC0015D570 /* Frameworks */ = {
+		F457D1B30D5925399D9958C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5724E50E22ED94EC0015D570 /* Frameworks */ = {
+		OBJ_26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				5724E51222ED94EC0015D570 /* BinaryProtocol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_46 /* BinaryProtocol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5724E4FE22ED94EC0015D570 = {
+		6851BF87550CF7601E9A5B9F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5724E50A22ED94EC0015D570 /* BinaryProtocol */,
-				5724E51522ED94EC0015D570 /* BinaryProtocolTests */,
-				5724E50922ED94EC0015D570 /* Products */,
+				EF54240A1A3F4531F8E02024 /* Pods-BinaryProtocol.debug.xcconfig */,
+				5C50B5ED34E2F8175764BE61 /* Pods-BinaryProtocol.release.xcconfig */,
+				58A3F4313974E4C89A916B95 /* Pods-BinaryProtocolPackageDescription.debug.xcconfig */,
+				4710FC82448A8879E6EB6D9A /* Pods-BinaryProtocolPackageDescription.release.xcconfig */,
+				2403316891ADA01AE1A3B43E /* Pods-BinaryProtocolTests.debug.xcconfig */,
+				356B8E3B733017C855C7644F /* Pods-BinaryProtocolTests.release.xcconfig */,
 			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		5724E50922ED94EC0015D570 /* Products */ = {
+		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5724E50822ED94EC0015D570 /* BinaryProtocol.framework */,
-				5724E51122ED94EC0015D570 /* BinaryProtocolTests.xctest */,
+				OBJ_11 /* BinaryProtocolTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* BinaryProtocolTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* BinaryProtocolTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = BinaryProtocolTests;
+			path = Tests/BinaryProtocolTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"BinaryProtocol::BinaryProtocol::Product" /* BinaryProtocol.framework */,
+				"BinaryProtocol::BinaryProtocolTests::Product" /* BinaryProtocolTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5724E50A22ED94EC0015D570 /* BinaryProtocol */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				5724E50B22ED94EC0015D570 /* BinaryProtocol.h */,
-				5724E52322ED9C2B0015D570 /* Resources */,
-				5724E52222ED9C0F0015D570 /* Sources */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+				OBJ_17 /* BinaryProtocol */,
+				OBJ_18 /* BinaryProtocolTests */,
+				OBJ_19 /* README.md */,
+				6851BF87550CF7601E9A5B9F /* Pods */,
 			);
-			path = BinaryProtocol;
 			sourceTree = "<group>";
 		};
-		5724E51522ED94EC0015D570 /* BinaryProtocolTests */ = {
+		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5724E51622ED94EC0015D570 /* BinaryProtocolTests.swift */,
-				5724E51822ED94EC0015D570 /* Info.plist */,
+				OBJ_8 /* BinaryProtocol */,
 			);
-			path = BinaryProtocolTests;
-			sourceTree = "<group>";
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
-		5724E52222ED9C0F0015D570 /* Sources */ = {
+		OBJ_8 /* BinaryProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				5724E52A22ED9ED50015D570 /* MessageData */,
-				5724E52422ED9C5C0015D570 /* Message */,
+				OBJ_9 /* BinaryProtocol.swift */,
 			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		5724E52322ED9C2B0015D570 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5724E50C22ED94EC0015D570 /* Info.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		5724E52422ED9C5C0015D570 /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				5724E53922EDB97C0015D570 /* MessageBuilder */,
-				5724E52522ED9C700015D570 /* Protocols */,
-				5724E53122EDAB560015D570 /* UncompletedMessage.swift */,
-				5724E53722EDB6440015D570 /* CompletedMessage.swift */,
-			);
-			path = Message;
-			sourceTree = "<group>";
-		};
-		5724E52522ED9C700015D570 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				5724E52822ED9D340015D570 /* BinarySerializable.swift */,
-				5724E52D22EDA5CF0015D570 /* BinaryCodable.swift */,
-				5724E52F22EDA7580015D570 /* MessageProtocol.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		5724E52A22ED9ED50015D570 /* MessageData */ = {
-			isa = PBXGroup;
-			children = (
-				5724E52B22EDA05B0015D570 /* IntConvertible.swift */,
-				5724E53322EDAC380015D570 /* Payloadable.swift */,
-				5724E53522EDAD2C0015D570 /* SerializableData.swift */,
-			);
-			path = MessageData;
-			sourceTree = "<group>";
-		};
-		5724E53922EDB97C0015D570 /* MessageBuilder */ = {
-			isa = PBXGroup;
-			children = (
-				5724E53A22EDD7FB0015D570 /* MessageBuilderContext.swift */,
-				5724E53C22EDDAE40015D570 /* MessageBuilder.swift */,
-			);
-			path = MessageBuilder;
-			sourceTree = "<group>";
+			name = BinaryProtocol;
+			path = Sources/BinaryProtocol;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		5724E50322ED94EC0015D570 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5724E51922ED94EC0015D570 /* BinaryProtocol.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		5724E50722ED94EC0015D570 /* BinaryProtocol */ = {
+		"BinaryProtocol::BinaryProtocol" /* BinaryProtocol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5724E51C22ED94EC0015D570 /* Build configuration list for PBXNativeTarget "BinaryProtocol" */;
+			buildConfigurationList = OBJ_21 /* Build configuration list for PBXNativeTarget "BinaryProtocol" */;
 			buildPhases = (
-				5724E50322ED94EC0015D570 /* Headers */,
-				5724E50422ED94EC0015D570 /* Sources */,
-				5724E50522ED94EC0015D570 /* Frameworks */,
-				5724E50622ED94EC0015D570 /* Resources */,
+				DE675B51B971309D7A0B066C /* [CP] Check Pods Manifest.lock */,
+				OBJ_24 /* Sources */,
+				OBJ_26 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,364 +174,442 @@
 			);
 			name = BinaryProtocol;
 			productName = BinaryProtocol;
-			productReference = 5724E50822ED94EC0015D570 /* BinaryProtocol.framework */;
+			productReference = "BinaryProtocol::BinaryProtocol::Product" /* BinaryProtocol.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5724E51022ED94EC0015D570 /* BinaryProtocolTests */ = {
+		"BinaryProtocol::BinaryProtocolTests" /* BinaryProtocolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5724E51F22ED94EC0015D570 /* Build configuration list for PBXNativeTarget "BinaryProtocolTests" */;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXNativeTarget "BinaryProtocolTests" */;
 			buildPhases = (
-				5724E50D22ED94EC0015D570 /* Sources */,
-				5724E50E22ED94EC0015D570 /* Frameworks */,
-				5724E50F22ED94EC0015D570 /* Resources */,
+				DD9F8F71CE84B8B4C2AF9FA2 /* [CP] Check Pods Manifest.lock */,
+				OBJ_42 /* Sources */,
+				OBJ_45 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5724E51422ED94EC0015D570 /* PBXTargetDependency */,
+				OBJ_47 /* PBXTargetDependency */,
 			);
 			name = BinaryProtocolTests;
 			productName = BinaryProtocolTests;
-			productReference = 5724E51122ED94EC0015D570 /* BinaryProtocolTests.xctest */;
+			productReference = "BinaryProtocol::BinaryProtocolTests::Product" /* BinaryProtocolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"BinaryProtocol::SwiftPMPackageDescription" /* BinaryProtocolPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_28 /* Build configuration list for PBXNativeTarget "BinaryProtocolPackageDescription" */;
+			buildPhases = (
+				0CA685A644688550FAEEA6E9 /* [CP] Check Pods Manifest.lock */,
+				OBJ_31 /* Sources */,
+				F457D1B30D5925399D9958C2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinaryProtocolPackageDescription;
+			productName = BinaryProtocolPackageDescription;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5724E4FF22ED94EC0015D570 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = Victor;
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
 				TargetAttributes = {
-					5724E50722ED94EC0015D570 = {
-						CreatedOnToolsVersion = 10.2.1;
-						LastSwiftMigration = 1020;
-					};
-					5724E51022ED94EC0015D570 = {
-						CreatedOnToolsVersion = 10.2.1;
+					"BinaryProtocol::BinaryProtocol" = {
+						DevelopmentTeam = N28UYC6RTZ;
 					};
 				};
 			};
-			buildConfigurationList = 5724E50222ED94EC0015D570 /* Build configuration list for PBXProject "BinaryProtocol" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "BinaryProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
-			mainGroup = 5724E4FE22ED94EC0015D570;
-			productRefGroup = 5724E50922ED94EC0015D570 /* Products */;
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5724E50722ED94EC0015D570 /* BinaryProtocol */,
-				5724E51022ED94EC0015D570 /* BinaryProtocolTests */,
+				"BinaryProtocol::BinaryProtocol" /* BinaryProtocol */,
+				"BinaryProtocol::SwiftPMPackageDescription" /* BinaryProtocolPackageDescription */,
+				"BinaryProtocol::BinaryProtocolPackageTests::ProductTarget" /* BinaryProtocolPackageTests */,
+				"BinaryProtocol::BinaryProtocolTests" /* BinaryProtocolTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		5724E50622ED94EC0015D570 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		0CA685A644688550FAEEA6E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BinaryProtocolPackageDescription-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-		5724E50F22ED94EC0015D570 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+		DD9F8F71CE84B8B4C2AF9FA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BinaryProtocolTests-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		DE675B51B971309D7A0B066C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BinaryProtocol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5724E50422ED94EC0015D570 /* Sources */ = {
+		OBJ_24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				5724E53B22EDD7FB0015D570 /* MessageBuilderContext.swift in Sources */,
-				5724E53422EDAC380015D570 /* Payloadable.swift in Sources */,
-				5724E52922ED9D340015D570 /* BinarySerializable.swift in Sources */,
-				5724E52E22EDA5CF0015D570 /* BinaryCodable.swift in Sources */,
-				5724E53822EDB6440015D570 /* CompletedMessage.swift in Sources */,
-				5724E52C22EDA05B0015D570 /* IntConvertible.swift in Sources */,
-				5724E53622EDAD2C0015D570 /* SerializableData.swift in Sources */,
-				5724E53D22EDDAE40015D570 /* MessageBuilder.swift in Sources */,
-				5724E53022EDA7580015D570 /* MessageProtocol.swift in Sources */,
-				5724E53222EDAB560015D570 /* UncompletedMessage.swift in Sources */,
+				OBJ_25 /* BinaryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5724E50D22ED94EC0015D570 /* Sources */ = {
+		OBJ_31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				5724E51722ED94EC0015D570 /* BinaryProtocolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* BinaryProtocolTests.swift in Sources */,
+				OBJ_44 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5724E51422ED94EC0015D570 /* PBXTargetDependency */ = {
+		OBJ_37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5724E50722ED94EC0015D570 /* BinaryProtocol */;
-			targetProxy = 5724E51322ED94EC0015D570 /* PBXContainerItemProxy */;
+			target = "BinaryProtocol::BinaryProtocolTests" /* BinaryProtocolTests */;
+			targetProxy = 574BEE9922F412F800D50F92 /* PBXContainerItemProxy */;
+		};
+		OBJ_47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "BinaryProtocol::BinaryProtocol" /* BinaryProtocol */;
+			targetProxy = 574BEE9822F412F700D50F92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5724E51A22ED94EC0015D570 /* Debug */ = {
+		OBJ_22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF54240A1A3F4531F8E02024 /* Pods-BinaryProtocol.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = N28UYC6RTZ;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Pods";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/Header";
+				INFOPLIST_FILE = BinaryProtocol.xcodeproj/BinaryProtocol_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx $(PROJECT_DIR)/Pods";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = BinaryProtocol;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = BinaryProtocol;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C50B5ED34E2F8175764BE61 /* Pods-BinaryProtocol.release.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Pods";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/Header";
+				INFOPLIST_FILE = BinaryProtocol.xcodeproj/BinaryProtocol_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx $(PROJECT_DIR)/Pods";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = BinaryProtocol;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = BinaryProtocol;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A3F4313974E4C89A916B95 /* Pods-BinaryProtocolPackageDescription.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
 					"DEBUG=1",
-					"$(inherited)",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		5724E51B22ED94EC0015D570 /* Release */ = {
+		OBJ_30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4710FC82448A8879E6EB6D9A /* Pods-BinaryProtocolPackageDescription.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+			};
+			name = Debug;
+		};
+		OBJ_36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		5724E51D22ED94EC0015D570 /* Debug */ = {
+		OBJ_40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2403316891ADA01AE1A3B43E /* Pods-BinaryProtocolTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N28UYC6RTZ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BinaryProtocol/Resources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vsemenov.BinaryProtocol;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = BinaryProtocol.xcodeproj/BinaryProtocolTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_NAME = BinaryProtocolTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		5724E51E22ED94EC0015D570 /* Release */ = {
+		OBJ_41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356B8E3B733017C855C7644F /* Pods-BinaryProtocolTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N28UYC6RTZ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BinaryProtocol/Resources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vsemenov.BinaryProtocol;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = BinaryProtocol.xcodeproj/BinaryProtocolTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5724E52022ED94EC0015D570 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N28UYC6RTZ;
-				INFOPLIST_FILE = BinaryProtocolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = vsemenov.BinaryProtocolTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5724E52122ED94EC0015D570 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N28UYC6RTZ;
-				INFOPLIST_FILE = BinaryProtocolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = vsemenov.BinaryProtocolTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_NAME = BinaryProtocolTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5724E50222ED94EC0015D570 /* Build configuration list for PBXProject "BinaryProtocol" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "BinaryProtocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5724E51A22ED94EC0015D570 /* Debug */,
-				5724E51B22ED94EC0015D570 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5724E51C22ED94EC0015D570 /* Build configuration list for PBXNativeTarget "BinaryProtocol" */ = {
+		OBJ_21 /* Build configuration list for PBXNativeTarget "BinaryProtocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5724E51D22ED94EC0015D570 /* Debug */,
-				5724E51E22ED94EC0015D570 /* Release */,
+				OBJ_22 /* Debug */,
+				OBJ_23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5724E51F22ED94EC0015D570 /* Build configuration list for PBXNativeTarget "BinaryProtocolTests" */ = {
+		OBJ_28 /* Build configuration list for PBXNativeTarget "BinaryProtocolPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5724E52022ED94EC0015D570 /* Debug */,
-				5724E52122ED94EC0015D570 /* Release */,
+				OBJ_29 /* Debug */,
+				OBJ_30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_34 /* Build configuration list for PBXAggregateTarget "BinaryProtocolPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_35 /* Debug */,
+				OBJ_36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_39 /* Build configuration list for PBXNativeTarget "BinaryProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5724E4FF22ED94EC0015D570 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

@@ -8,9 +8,14 @@
 
 import Foundation
 
-public class CompletedMessage: SerializableData, MessageProtocol {
-    var syncWord: UInt16?
-    var payload: Payloadable?
+public class CompletedMessage: SerializableData, MessageProtocol, BinaryDecodable {
+    
+    public required init?(from binaryCoder: BinaryCoder) {
+        
+    }
+    
+    public var syncWord: UInt16?
+    public var payload: Payloadable?
     
     internal init(with uncompletedMessage: UncompletedMessage) {
         super.init(with: uncompletedMessage.binaryData)

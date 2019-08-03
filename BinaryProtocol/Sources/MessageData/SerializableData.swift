@@ -9,9 +9,9 @@
 import Foundation
 
 public class SerializableData: BinarySerializable {
-    var binaryData: Data
+    public var binaryData: Data
     
-    var data: [IntConvertible] {
+    public var data: [IntConvertible] {
         get {
             return binaryData.map({ (uint8) -> IntConvertible in
                 return IntConvertible(uint8: uint8)
@@ -27,7 +27,7 @@ public class SerializableData: BinarySerializable {
         }
     }
     
-    required init(with binaryData: Data) {
+    required public init(with binaryData: Data) {
         self.binaryData = binaryData
     }
 }

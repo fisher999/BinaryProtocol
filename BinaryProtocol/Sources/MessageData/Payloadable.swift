@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol Payloadable {
+public protocol Payloadable: BinaryDecodable {
     var id: UInt8 {get}
     var value: SerializableData {get set}
 }

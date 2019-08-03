@@ -1,0 +1,6 @@
+module Pods_BinaryProtocolPackageDescription {
+  umbrella header "Pods-BinaryProtocolPackageDescription-umbrella.h"
+
+  export *
+  module * { export * }
+}

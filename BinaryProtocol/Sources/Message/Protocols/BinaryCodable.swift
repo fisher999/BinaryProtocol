@@ -8,7 +8,6 @@
 
 import Foundation
 
-internal protocol BinaryCodable {
-    func decode() -> MessageProtocol
-    func encode(message: MessageProtocol) -> SerializableData
+public protocol BinaryDecodable {
+    init?(from binaryCoder: BinaryCoder)
 }

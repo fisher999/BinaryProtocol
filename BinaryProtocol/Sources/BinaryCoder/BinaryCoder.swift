@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+public class BinaryCoder {
+    
+    var container: BinaryCoderContainer
+    
+    init(container: BinaryCoderContainer = BinaryCoderContainer()) {
+        self.container = container
+    }
+    
+    func decode<T: BinaryDecodable>(_ DecodableType: T.Type, from data: Data) -> T {
+        let keys = Mirror(
+    }
+    
+    
+}

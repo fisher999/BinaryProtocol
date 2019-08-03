@@ -8,11 +8,12 @@
 
 import Foundation
 
-protocol MessageProtocol: BinarySerializable {
+public protocol MessageProtocol: BinarySerializable {
     var syncWord: UInt16? {get set}
     var payload: Payloadable? {get set}
 }
 
+//MARK: BinaryDecodable
 extension MessageProtocol {
     var size: UInt16? {
         let size = MemoryLayout.size(ofValue: syncWord) + MemoryLayout.size(ofValue: id) + MemoryLayout.size(ofValue: payload?.value) + MemoryLayout.size(ofValue: checkSum)

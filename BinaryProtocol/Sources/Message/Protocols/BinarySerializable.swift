@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal protocol BinarySerializable {
+public protocol BinarySerializable {
     var data: [IntConvertible] {get set}
     var binaryData: Data {get set}
     
